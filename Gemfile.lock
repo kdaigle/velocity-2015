@@ -4,6 +4,11 @@ GEM
     addressable (2.3.8)
     faraday (0.9.1)
       multipart-post (>= 1.2, < 3)
+    httparty (0.13.5)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
+    json (1.8.1)
+    multi_xml (0.5.5)
     multipart-post (2.0.0)
     octokit (3.8.0)
       sawyer (~> 0.6.0, >= 0.5.3)
@@ -23,5 +28,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  httparty
+  json
   octokit
   sinatra
